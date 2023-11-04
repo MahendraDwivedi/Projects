@@ -1,0 +1,187 @@
+/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+#o{
+    font-size:small;
+    padding-left:1rem;
+    font-style: italic;
+    
+    
+}
+.container{
+   
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(25deg, rgb(202, 176, 114) 0 30%, rgb(230, 136, 22) 45% 100%);
+    position: fixed;
+    width: 100vw;
+   z-index: 100;
+
+}
+.logo{
+    display: flex;
+    margin-left: 2rem;
+    padding-right: 2px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+h2{
+    margin-top: 15px;
+    margin-left:30px ;
+}
+a{
+    margin-left: 2em;
+    text-decoration: none;  
+    color: black; 
+}
+.img{
+    background-image:url("college.jpeg") ;
+    width: 100vw;
+    height: 90vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow:visible;
+
+}
+.stu{
+    display: grid;
+   
+    margin-top: 60px;
+}
+.belowmain{
+   margin-top: -320px;
+    background-color:white;
+    opacity:0.7;
+    height: 290px;
+    margin-left: 50px;
+    margin-right: 600px;
+    border-radius: 10px;
+   
+}
+
+.btnall{
+    position:absolute;
+    display: grid;
+    
+    justify-self: flex-end;
+    padding-top:  300px;
+    margin-right: 50px;
+    gap: 30px;
+    
+}
+
+.btns{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(230, 136, 22);
+    font-size: larger;
+    border-color: black;
+    border-width: 5px;
+    border-style:double;
+}
+
+.vision{
+    margin-top: 50px;
+    
+    background-image: linear-gradient(90deg,#d0dbeb,hsla(0,75%,87%,.76));
+}
+div>p{
+    margin-left: 15px;
+}
+.li{
+   margin-left: 15px;
+}
+
+.placement{
+    background-image: linear-gradient(90deg,#d0dbeb,hsla(0,75%,87%,.76));
+    margin-top: 20px;
+}
+
+.placement > div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.h1{
+    
+    color:black;
+    font-size:xx-large;
+    margin-left: 20px;
+    font-weight:bolder;
+    font-family: 'Fira Sans', sans-serif;
+    word-spacing: 5px;
+   
+}
+.p1{
+    margin-left: 20px;
+    font-size: larger;
+    word-spacing: 2px;
+}
+.why{
+    margin-top: 5rem;
+    background-color: rgb(211, 182, 125);
+    color: white;
+    margin-bottom: 100px;
+    height:700px;
+}
+.h1a{
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 550px;
+}
+.h1a:hover{
+    color: rgb(152, 124, 82);
+}
+.btnall button:hover{
+    color: rgb(244, 242, 239);
+}
+.options a:hover{
+    color: rgb(243, 242, 242);
+    text-decoration: underline;
+}
+
+.p2{
+    margin-top: 20px;
+    font-size: larger;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.cardtop{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;    
+}
+.card{
+    border-width: 2px;
+    border-style: solid;
+    padding: 30px;
+    max-width:300px;
+    margin-right: 10px;
+    border-color: black;
+    border-radius: 10px;
+    
+
+    
+}
